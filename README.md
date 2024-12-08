@@ -12,6 +12,10 @@ LangChain-Embedding-From-Dir.py - This script, will create embeddings, using all
 LangChain-Embedding-From-Doc.py - This script, will create 1 embedding, using just one of the text files in the directory, inserting this 1 embedding into the Pinecone index we created.
 LangChain-Embedding-Hardcode.py - This script, will create 3 embedding, using some hard-coded text components, inserting all 3 embedding into the Pinecone index we created.
 
+Environment Variables
+PINECONE_API_KEY - Set this to your Pinecone API key
+OPENAI_API_KEY - Set this to your OpenAI API key
+
 3rd Party Services:
 You need to get an account and API key from OpenAI and you need an account and API key for Pinecone.
 
