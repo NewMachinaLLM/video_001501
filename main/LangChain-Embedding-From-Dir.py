@@ -26,4 +26,4 @@ pinecone_index_name = "langchain-embeddings-demo"
 vectorstore = PineconeVectorStore(index_name=pinecone_index_name, embedding=embeddings)
 vectorstore.add_documents(documents=split_documents )
 
-print("Embeddings from text files residing in the directory, created, and inserted in Pinecone Vector Database successfully!")
+print("Embeddings created, and inserted in Pinecone Vector Database successfully!")
